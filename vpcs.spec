@@ -36,7 +36,7 @@ install -m 644 man/%{name}.1 %{buildroot}/%{_mandir}/man1/
 %doc readme.txt
 
 %changelog
-* Wed Nov 17 2021 Tsvetan Gerov <tsvetan@georv.eu - 0.8.2-1
+* Wed Nov 17 2021 Tsvetan Gerov <tsvetan@georv.eu> - 0.8.2-1
 - Bump version to 0.8.2, based on GNS3 VPCS Repoistory
 
 * Thu Mar 18 2021 Tsvetan Gerov <tsvetan@gerov.eu> - 0.8.1-1
