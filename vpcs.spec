@@ -1,11 +1,11 @@
 Name:           vpcs
-Version:        0.8.2
+Version:        0.8.3
 Release:        1%{?dist}
 Summary:        Virtual PC Simulator
 
 License:        BSD
 URL:            https://github.com/GNS3/vpcs/
-Source0:        https://github.com/GNS3/vpcs/archive/v0.8.2.tar.gz
+Source0:        https://github.com/GNS3/vpcs/archive/v0.8.3.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires:  make
@@ -36,6 +36,9 @@ install -m 644 man/%{name}.1 %{buildroot}/%{_mandir}/man1/
 %doc readme.txt
 
 %changelog
+* Tue Nov 07 2023 Tsvetan Gerov <tsvetan@gerov.eu> - 0.8.3-1
+- Bump version to 0.8.3, based on GNS3 VPCS Repoistory
+
 * Wed Nov 17 2021 Tsvetan Gerov <tsvetan@georv.eu> - 0.8.2-1
 - Bump version to 0.8.2, based on GNS3 VPCS Repoistory
 
