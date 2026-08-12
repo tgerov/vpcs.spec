@@ -5,7 +5,7 @@ Summary:        Virtual PC Simulator
 
 License:        BSD
 URL:            https://github.com/GNS3/vpcs/
-Source0:        https://github.com/GNS3/vpcs/archive/v0.8.3.tar.gz
+Source0:        https://github.com/GNS3/vpcs/archive/v0.8.4.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires:  make
