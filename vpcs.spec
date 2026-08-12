@@ -1,5 +1,5 @@
 Name:           vpcs
-Version:        0.8.3
+Version:        0.8.4
 Release:        1%{?dist}
 Summary:        Virtual PC Simulator
 
@@ -36,6 +36,9 @@ install -m 644 man/%{name}.1 %{buildroot}/%{_mandir}/man1/
 %doc readme.txt
 
 %changelog
+* Wed Aug 12 2026 Tsvetan Gerov <tsvetan@gerov.eu> - 0.8.4-1
+- Bump version to 0.8.4, based on GNS3 VPCS Repoistory
+
 * Tue Nov 07 2023 Tsvetan Gerov <tsvetan@gerov.eu> - 0.8.3-1
 - Bump version to 0.8.3, based on GNS3 VPCS Repoistory
 
